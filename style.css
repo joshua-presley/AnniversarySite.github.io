@@ -1,3 +1,5 @@
+
+/*basic styles*/
 *{
     font-family: Comic Sans MS;
 }
@@ -5,6 +7,13 @@ h1{
    text-align: center; 
    color: #0033cc
 }
+
+body{
+    background: linear-gradient(to bottom right,#33ccff, #ff99cc);
+}
+
+
+
 nav{
    float: none;
    position: absolute;
@@ -16,6 +25,7 @@ nav a{
     color: #0033cc;
     text-decoration:none;
     padding: 10px;
+    margin: 10px;
     font-size: large;
 }
 
@@ -23,6 +33,36 @@ nav a:hover{
     color: purple;
 }
 
-body{
-    background: linear-gradient(to bottom right,#33ccff, #ff99cc);
+
+.child{
+    
+    background-color: azure;
+    width: 80%;
+    height: 200px;
+    padding: 10px;
+    margin:10 auto;
+}
+
+/*container styles*/
+#container{
+    overflow: hidden;   
+    text-align: center;
+    
+}
+#navcontainer{
+    height: 30px;
+}
+
+.container {
+    zoom: 1; /* IE6&7 */
+}
+
+.container:before,
+.container:after {
+    content: "";
+    display: table;
+}
+
+.container:after {
+    clear: both;
 }
