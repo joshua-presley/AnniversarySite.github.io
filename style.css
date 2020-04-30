@@ -1,0 +1,28 @@
+*{
+    font-family: Comic Sans MS;
+}
+h1{
+   text-align: center; 
+   color: #0033cc
+}
+nav{
+   float: none;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%, -50%); 
+}
+
+nav a{
+    color: #0033cc;
+    text-decoration:none;
+    padding: 10px;
+    font-size: large;
+}
+
+nav a:hover{
+    color: purple;
+}
+
+body{
+    background: linear-gradient(to bottom right,#33ccff, #ff99cc);
+}
