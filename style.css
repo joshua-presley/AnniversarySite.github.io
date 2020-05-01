@@ -12,8 +12,44 @@ body{
     background: linear-gradient(to bottom right,#33ccff, #ff99cc);
 }
 
+/*image styles*/
+.image{
+    float: left;
+    height: 50%; 
+    width: 50%;
+}
+
+.fadeoverlay {
+    width: 50%;
+    float:left;
+}
+.overlay {
+    height: 50%;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background: linear-gradient(to bottom right,#33ccff, #ff99cc);
+}
+  
+.fadeoverlay:hover .overlay {
+    opacity: .8;
+}
+  
+.text {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top:-50%;
+}
 
 
+#NextToOverlay{
+    position:relative;
+    left:-50%;
+}
+
+
+/*nav styles*/
 nav{
    float: none;
    position: absolute;
@@ -34,14 +70,6 @@ nav a:hover{
 }
 
 
-.child{
-    
-    background-color: azure;
-    width: 80%;
-    height: 200px;
-    padding: 10px;
-    margin:10 auto;
-}
 
 /*container styles*/
 #container{
@@ -65,4 +93,11 @@ nav a:hover{
 
 .container:after {
     clear: both;
+}
+
+.child{
+    width: 80%;
+    height: 85%;
+    padding: 10px;
+    margin:10 auto;
 }
