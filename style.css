@@ -43,9 +43,9 @@ body{
 }
 
 
-#NextToOverlay{
-    position:relative;
-    left:-50%;
+.NextToOverlay{
+    position: relative;
+    left: -25%
 }
 
 
