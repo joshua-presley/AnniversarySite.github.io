@@ -1,7 +1,7 @@
 
 /*basic styles*/
 *{
-    font-family: Comic Sans MS;
+    font-family: Comic Georgia, 'Times New Roman', Times, serif;
 }
 h1{
    text-align: center; 
@@ -28,11 +28,11 @@ body{
     width: 50%;
     opacity: 0;
     transition: .5s ease;
-    background: linear-gradient(to bottom right,#33ccff, #ff99cc);
+    background: grey;
 }
   
 .fadeoverlay:hover .overlay {
-    opacity: .8;
+    opacity: .6;
 }
   
 .text {
@@ -67,6 +67,7 @@ nav a{
 
 nav a:hover{
     color: purple;
+    font-size:25;
 }
 
 
