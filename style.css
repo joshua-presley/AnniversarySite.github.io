@@ -3,6 +3,9 @@
 *{
     font-family: Comic Georgia, 'Times New Roman', Times, serif;
 }
+p{
+    font-size: 20
+}
 h1{
    text-align: center; 
    color: #0033cc
@@ -17,6 +20,7 @@ body{
     float: left;
     height: 50%; 
     width: 50%;
+    border-radius: 60%;
 }
 
 .fadeoverlay {
@@ -29,6 +33,7 @@ body{
     opacity: 0;
     transition: .5s ease;
     background: grey;
+    border-radius: 60%;
 }
   
 .fadeoverlay:hover .overlay {
