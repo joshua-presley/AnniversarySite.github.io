@@ -125,15 +125,26 @@ nav a:hover{
   .column img {
     margin-top: 8px;
     vertical-align: middle;
-    max-width: 100%;
+    max-width: 50%;
+    max-height: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #ddd;
+    border-radius: 4px;
   }
   
   button{
-      vertical-align: middle;
+      text-align: middle;
       border-radius: 50%;
       font-size: 24px;
   }
   button:hover{
       background-color: #ff99cc;
+  }
+  .column img:hover{
+      max-height: 100%;
+      max-width: 100%;
+      transition: .5s ease;
+
   }
 /*end styles for the images screen*/
