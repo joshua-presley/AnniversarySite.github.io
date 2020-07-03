@@ -7,6 +7,43 @@
         <script src="index.js"></script>
     </head>
     <body>
+        <header>
+            <h1>The BEST Photos of the World's Best Couple
+
+            </h1>
+        </header>
+        <div id="navcontainer" class="container">
+            <button onclick="two()">Two</button>
+            <button onclick="four()">Three</button>
+        </div>        
+        <script>
+            // Get the elements with class="column"
+            var elements = document.getElementsByClassName("column");
+            
+            // Declare a "loop" variable
+            var i;
+            
+            // Full-width images
+            function one() {
+              for (i = 0; i < elements.length; i++) {
+                elements[i].style.flex = "100%";
+              }
+            }
+            
+            // Two images side by side
+            function two() {
+              for (i = 0; i < elements.length; i++) {
+                elements[i].style.flex = "50%";
+              }
+            }
+            
+            // Four images side by side
+            function four() {
+              for (i = 0; i < elements.length; i++) {
+                elements[i].style.flex = "25%";
+              }
+            }
+        </script>
         <div class="row">
             <div class="column">
                 <img src="IMG_0134.JPG">
@@ -56,6 +93,9 @@
                 <img src="IMG_0737.JPG">
                 <img src="IMG_0740.JPG">
             </div>
-          </div>
+        </div>
+        <footer>
+            <p>Created by Josh Presley for Megan Ferguson</p>
+        </footer>
     </body>
 </html>

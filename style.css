@@ -108,3 +108,32 @@ nav a:hover{
     margin:10 auto;
     opacity:0;
 }
+
+/*styles for the images screen*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    max-width: 100%;
+  }
+  
+  button{
+      vertical-align: middle;
+      border-radius: 50%;
+      font-size: 24px;
+  }
+  button:hover{
+      background-color: #ff99cc;
+  }
+/*end styles for the images screen*/
